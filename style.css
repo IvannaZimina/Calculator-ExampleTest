@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;600&display=swap');
+
+.mainContainer {
+    width: 400px;
+    height: 350px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 0 30px;
+    border: 1px solid rgb(211, 211, 211);
+    font-family: 'Titillium Web', sans-serif;
+    box-shadow: 3px 6px 10px 2px rgba(34, 60, 80, 0.2);
+}
+
+.number, .action, .calcBtn, .result {
+    margin-top: 30px;
+    font-weight: 300;
+}
+
+.number {
+    display: flex;
+    justify-content: space-between;
+}
+
+.resNumber {
+    font-weight: 600;
+    font-size: 20px;
+
+}
+
+.calcBtn {
+    width: 350px;
+    padding: 5px 0;
+    font-weight: 600;
+    font-size: 24px;
+}
